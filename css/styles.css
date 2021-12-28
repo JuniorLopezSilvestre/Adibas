@@ -608,6 +608,24 @@ text-align:center;
     padding: 5rem 0;
 }
 
+@keyframes header-animation {
+    0% {
+        background-size: 100% auto
+    }
+
+    50% {
+        background-size: 150% auto
+    }
+
+    100% {
+        background-size: 100% auto
+    }
+}
+
+.header-animation {
+    animation: header-animation 30s linear infinite
+}
+
 @media screen and (max-width: 768px) { 
     header {
         display: block;
@@ -703,5 +721,9 @@ form{
 }
 h2.title_form {
     margin: 0px 50px;
+}
+.header-animation {
+    animation:none!important;
+    background-size: cover
 }
 }
