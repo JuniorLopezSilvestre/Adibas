@@ -18,27 +18,63 @@
                  <li><a href="./about-us.html">About</a></li>
          </ul>
     </nav>
-    <header>
+    <!--
+    <header class="logi">
         <div>
-            <a href="./index.html"><img src="./assets/img/adibas.jpg" alt="logo de marca" sizes="75px" width="75px"></a>
+            <a href="./index.html" class="menu_active"><img src="./assets/img/adibas.jpg" alt="logo de marca" sizes="75px" width="75px"></a>
         </div>
         <div class="center">
             <ul class="menu">
                 <li><a href="./men.html">Men</a></li>
                 <li><a href="./women.html">women</a></li>  
-                <li><a href="./children.html" class="menu_active">Children</a></li>
+                <li><a href="./children.html">Children</a></li>
                 <li><a href="./sports.html">Sports</a></li>
             </ul>
         </div>
         <div>
             <ul class="nav_log"> 
-                <li><a href="./login.html"><i class="fa fa-user-o" aria-hidden="true"></i></a></li>
-                <li>|</li>
-                <li><a href="./cart.html"><i class="fa fa-opencart" aria-hidden="true"></i></a></li>
                 <li><input type="search" name="search" id="search" class="input_search" placeholder="search"></li>
             </ul>
         </div>
-    </header>
+    </header>-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a href="./index.html" class="menu_active logo_img"><img src="./assets/img/adibas.jpg" alt="logo de marca" sizes="75px" width="75"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link text-uppercase" href="./men.html">Men</a></li>
+                <li class="nav-item"><a class="nav-link text-uppercase" href="./women.html">women</a></li>  
+                <li class="nav-item"><a class="nav-link text-uppercase active" href="./children.html">Children</a></li>
+                <li class="nav-item"><a class="nav-link text-uppercase" href="./sports.html">Sports</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Popular
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item text-uppercase" href="#">Coats</a></li>
+                    <li><a class="dropdown-item text-uppercase" href="#">Terrex</a></li>
+                    <li><a class="dropdown-item text-uppercase" href="#">Ultraboost</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-uppercase" href="#">Low Prices</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <ul class="nav_log"> 
+                  <li><a href="./login.html"><i class="fa fa-user-o" aria-hidden="true"></i></a></li>
+                  <li>|</li>
+                  <li><a href="./cart.html"><i class="fa fa-opencart" aria-hidden="true"></i></a></li>
+                  <li><input type="search" name="search" id="search" class="input_search" placeholder="search"></li>
+              </ul>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
     <section class="season_des back_child header-animation">
         <div class="container">
         <h2>¡GET YOUR GIFT FOR THE SEASON!</h2>
