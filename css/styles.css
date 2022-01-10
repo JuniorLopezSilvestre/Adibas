@@ -68,7 +68,30 @@
     -webkit-animation-duration: 1s;
     animation-duration: .9s;
   }
-  /*------ animation ------*/
+  /*------  end animation ------*/
+
+  ::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.51);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar{
+    width: 13px;
+    background-color: #020101;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.42);
+    background-color:#000000;
+    border: 1px solid #020303;
+}
+::selection {
+    color:#ffffff;
+    background:#2e2e2d;
+}
+/*------end scroll bar ------*/
 nav.navbar {
     padding: 20px 0;
 }
