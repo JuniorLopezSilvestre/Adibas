@@ -1,0 +1,19 @@
+$color-transparent:transparent;
+$color-dark:#000;
+@mixin position {
+    display: block;
+    position: absolute;
+}
+@mixin Navtols {
+            background: transparent;
+			border: 1px solid #000000;
+			box-shadow: none;
+} 
+@mixin displaystandar {
+            display: flex;
+            justify-content: center;   
+}
+@mixin display100 {
+    display: flex;
+    width: 100%;
+}
