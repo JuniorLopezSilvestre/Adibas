@@ -18,7 +18,7 @@
 		}
 	}
 	.container {
-		max-width: 90%;
+		max-width: 90%!important;
 	}
 	.container_products {
 		max-width: 100%;
@@ -36,18 +36,27 @@
 			}
 		}
 	}
+	.footer-main{
+				a{
+					text-decoration: none;
+					}
+				}
 	.footer-main {
+		background: #000000;
+		color: #FFFFFF;
+		flex-flow: wrap;
+		clear: both;
+		width: 100%;
+		padding: 2em 0em!important;
+		margin-right: 10em;
 		.links-all {
             display: grid !important;
 			.flex-item {
-				margin-right: 0;
-                width: 100%;
-                flex-flow: unset;
-                padding:0.4em !important;
+				margin-right: 10em;
 			}
 		}
 		    .social {
-			float: none;
+			float: none!important;
 		}
 	}
 	ul.nav_log {
@@ -97,7 +106,7 @@
 		}
 	}
 	.card {
-		width: 100%;
+		width: 100%!important;
 		margin-right: 0;
 	}
 	.form-g {
