@@ -102,7 +102,7 @@ nav.navbar {
 }
  .btn-color{
      background-color: #0e1c36;
-     color: #fff;
+     color: #fff!important;
 }
  .profile-image-pic{
      height: 200px;
