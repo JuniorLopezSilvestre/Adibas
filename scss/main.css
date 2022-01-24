@@ -78,8 +78,8 @@
 
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background-color: #000000;
-  border: 1px solid #020303;
+  background-color: #000;
+  border: 1px solid #000000;
 }
 
 ::-moz-selection {
@@ -165,7 +165,7 @@ ul {
   width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  color: black;
+  color: #000;
   font-family: "ubuntu";
   font-weight: 500;
   font-size: 18px;
@@ -175,22 +175,22 @@ ul {
 }
 
 .f-input::-webkit-input-placeholder {
-  color: black;
+  color: #000;
   opacity: 0.9;
 }
 
 .f-input:-ms-input-placeholder {
-  color: black;
+  color: #000;
   opacity: 0.9;
 }
 
 .f-input::-ms-input-placeholder {
-  color: black;
+  color: #000;
   opacity: 0.9;
 }
 
 .f-input::placeholder {
-  color: black;
+  color: #000;
   opacity: 0.9;
 }
 
@@ -302,7 +302,7 @@ button {
   border-radius: 0px;
   border: 0;
   cursor: pointer;
-  color: white;
+  color: #fff;
   font-size: 24px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -345,7 +345,7 @@ button:hover {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-color: #FFFFFF;
+  background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -459,7 +459,7 @@ nav.logo {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 88%;
-  color: white;
+  color: #fff;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
@@ -514,7 +514,7 @@ nav.logo {
   border-radius: 15px;
   border: 0;
   cursor: pointer;
-  color: white;
+  color: #fff;
   font-size: 24px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -568,7 +568,7 @@ nav.logo {
 
 .button-web:after {
   content: "";
-  background-color: #000000;
+  background-color: #000;
   width: 100%;
   z-index: -1;
   position: absolute;
@@ -658,7 +658,7 @@ nav.logo {
   transition: all 0.3s cubic-bezier(0.17, 0.71, 0.32, 0.96);
 }
 
-.text-name {
+.text-name, .text-price {
   position: absolute;
   left: 20px;
   right: 20px;
@@ -667,16 +667,14 @@ nav.logo {
 }
 
 .text-price {
-  position: absolute;
   top: 46%;
-  left: 20px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.3rem;
 }
 
 .footer-main {
-  background: #000000;
+  background: #000;
   color: #FFFFFF;
   -ms-flex-flow: wrap;
       flex-flow: wrap;
@@ -1081,8 +1079,8 @@ span.carousel-control-prev-icon {
     text-decoration: none;
   }
   .footer-main {
-    background: #000000;
-    color: #FFFFFF;
+    background: #000;
+    color: #fff;
     -ms-flex-flow: wrap;
         flex-flow: wrap;
     clear: both;
@@ -1110,7 +1108,7 @@ span.carousel-control-prev-icon {
     padding: 10px 20px !important;
   }
   .nav_link li a {
-    color: #ffffff;
+    color: #fff;
   }
   .nav_link_login {
     background-color: #000;
@@ -1119,7 +1117,7 @@ span.carousel-control-prev-icon {
     padding-bottom: 5px;
   }
   .nav_link_login li a {
-    color: #ffffff;
+    color: #fff;
   }
   .section {
     display: -ms-grid !important;

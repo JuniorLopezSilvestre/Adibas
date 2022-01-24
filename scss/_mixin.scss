@@ -1,5 +1,12 @@
+$pallete:(
+    "dark":#000,
+    "blank":#fff,
+    "border": 1px solid #000000,
+);
+
+
 $color-transparent:transparent;
-$color-dark:#000;
+
 @mixin position {
     display: block;
     position: absolute;

@@ -42,8 +42,8 @@
 					}
 				}
 	.footer-main {
-		background: #000000;
-		color: #FFFFFF;
+		background: map-get($map: $pallete, $key:dark );
+		color: map-get($map: $pallete, $key:blank );
 		flex-flow: wrap;
 		clear: both;
 		width: 100%;
@@ -68,24 +68,24 @@
 		}
 	}
 	.nav_link {
-		background-color: #000;
+		background-color: map-get($map: $pallete, $key:dark );
 		text-align: center!important;
 		padding: 10px 20px!important;
         
 		li {
 			a {
-				color: #ffffff;
+				color: map-get($map: $pallete, $key:blank );
 			}
 		}
 	}
 	.nav_link_login {
-		background-color: #000;
+		background-color: map-get($map: $pallete, $key:dark );
 		text-align: center;
 		padding-top: 5px;
 		padding-bottom: 5px;
 		li {
 			a {
-				color: #ffffff;
+				color: map-get($map: $pallete, $key:blank );
 			}
 		}
 	}

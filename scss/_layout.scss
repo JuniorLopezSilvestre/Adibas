@@ -60,8 +60,8 @@
 }
 ::-webkit-scrollbar-thumb {
 	border-radius: 5px;
-	background-color: #000000;
-	border: 1px solid #020303;
+	background-color: map-get($map: $pallete, $key:dark );
+	border: map-get($map: $pallete, $key:border );
 }
 ::selection {
 	color: #ffffff;
@@ -116,7 +116,7 @@ ul {
 }
 .f-input {
 	&::placeholder {
-		color: black;
+		color: map-get($map: $pallete, $key:dark );
 		opacity: 0.9;
 	}
 	background-color: $color-transparent;
@@ -126,7 +126,7 @@ ul {
 	margin-bottom: 15px;
 	width: 100%;
 	box-sizing: border-box;
-	color: black;
+	color: map-get($map: $pallete, $key:dark );
 	font-family: "ubuntu";
 	font-weight: 500;
 	font-size: 18px;
@@ -139,7 +139,7 @@ ul {
 }
 .menu {
 	a {
-		color: $color-dark;
+		color: map-get($map: $pallete, $key:dark );
 	}
 	list-style: none;
 	padding: 0px 20px;
@@ -149,7 +149,7 @@ ul {
 		a {
 			text-decoration: none;
 			&:hover {
-				color: $color-dark;
+				color:map-get($map: $pallete, $key:dark );
 				font-weight: bolder;
 			}
 		}
@@ -157,7 +157,7 @@ ul {
 }
 .nav_log {
 	a {
-		color: $color-dark;
+		color: map-get($map: $pallete, $key:dark );
 	}
 	@include displaystandar;
 	li {
@@ -166,7 +166,7 @@ ul {
 }
 .nav_link {
 	a {
-		color: $color-dark;
+		color: map-get($map: $pallete, $key:dark );
 	}
 	li {
 		a {
@@ -180,7 +180,7 @@ ul {
 }
 .nav_link_login {
 	a {
-		color: $color-dark;
+		color: map-get($map: $pallete, $key:dark );
 	}
 	li {
 		margin: 0px 15px;
@@ -189,7 +189,7 @@ ul {
 			text-decoration: none;
 			font-family: "ubuntu";
 			&:hover {
-				color: $color-dark;
+				color: map-get($map: $pallete, $key:dark );
 				font-weight: bolder;
 			}
 		}
@@ -216,7 +216,7 @@ button {
 	border-radius: 0px;
 	border: 0;
 	cursor: pointer;
-	color: white;
+	color: map-get($map: $pallete, $key:blank );
 	font-size: 24px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -251,7 +251,7 @@ button {
 	bottom: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #FFFFFF;
+	background-color: map-get($map: $pallete, $key:blank );
 	@include displaystandar;
 	align-items: center;
 	flex-wrap: wrap;
@@ -293,14 +293,14 @@ nav.logo {
 .navbar-light {
 	.navbar-nav {
 		.nav-link {
-			color: $color-dark !important;
+			color: map-get($map: $pallete, $key:dark ) !important;
 			&:hover {
-				color: $color-dark;
+				color: map-get($map: $pallete, $key:dark );
 				font-weight: bolder;
 			}
 		}
 		.nav-link.active {
-			color: $color-dark;
+			color: map-get($map: $pallete, $key:dark );
 			font-weight: bolder;
 		}
 	}
@@ -327,7 +327,7 @@ nav.logo {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position-y: 88%;
-	color: white;
+	color: map-get($map: $pallete, $key:blank );
 	align-content: center;
 	align-items: center;
 	line-height: 3rem;
@@ -366,7 +366,7 @@ nav.logo {
 	border-radius: 15px;
 	border: 0;
 	cursor: pointer;
-	color: white;
+	color: map-get($map: $pallete, $key:blank );
 	font-size: 24px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -379,7 +379,7 @@ nav.logo {
 	letter-spacing: 1px;
 	padding: 5px 2px 2px;
 	outline: 0;
-	border: 1px solid #000000;
+	border: map-get($map: $pallete, $key:border );
 	cursor: pointer;
 	position: relative;
 	background-color: rgba(0, 0, 0, 0);
@@ -387,7 +387,7 @@ nav.logo {
 	z-index: 1;
 	-webkit-user-select: none;
 	touch-action: manipulation;
-	color: $color-dark;
+	color: map-get($map: $pallete, $key:dark );
 	text-transform: uppercase;
 	font-weight: 600;
 }
@@ -409,7 +409,7 @@ nav.logo {
 	font-weight: 600;
 	&:after {
 		content: "";
-		background-color: #000000;
+		background-color: map-get($map: $pallete, $key:dark );
 		width: 100%;
 		z-index: -1;
 		position: absolute;
@@ -437,7 +437,7 @@ nav.logo {
 	list-style: none;
 	justify-content: center;
 	li {
-		border: 1px solid #000000;
+		border: map-get($map:$pallete, $key:border );
 		padding: 10px;
 	}
 }
@@ -492,15 +492,14 @@ nav.logo {
 	font-size: 1rem;
 }
 .text-price {
-	position: absolute;
+	@extend .text-name;
 	top: 46%;
-	left: 20px;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 1.3rem;
 }
 .footer-main {
-	background: #000000;
+	background: map-get($map: $pallete, $key:dark );
 	color: #FFFFFF;
 	flex-flow: wrap;
 	clear: both;
