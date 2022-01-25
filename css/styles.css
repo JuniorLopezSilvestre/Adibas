@@ -328,9 +328,16 @@ nav.navbar {
  .back_men{
      background-image: linear-gradient(to bottom, rgba(0, 163, 71 , 0.15), rgba(169, 10, 53,0.7)), url('../assets/img/banners/b-men.jpg');
 }
+.back_cart{
+    background-image: linear-gradient(to bottom, rgba(0, 163, 71 , 0.15), rgba(169, 10, 53,0.7)), url('../assets/img/banners/b-cart.jpg');
+    height: 100vh;
+}
  .season_des h2 {
      font-size: 2.3rem;
-     ;
+}
+.season_des.back_cart h2 {
+    font-size: 4rem;
+    font-weight: 900;
 }
  .season_des h3 {
      font-size: 2.1rem;
@@ -883,6 +890,10 @@ nav.navbar {
     .navbar-collapse {
         text-align: center;
     }
+      .season_des.back_cart h2 {
+         font-size: 3rem!important;
+    }
+    
 }
 
 .navbar-light .navbar-toggler:hover, .navbar-light .navbar-toggler:focus, .navbar-light .navbar-toggler:active
